@@ -1,5 +1,5 @@
-# -Sales-and-Customer-Analytics
-Sales and Customer Analytics Dashboard
+# Sales-and-Customer-Analytics
+
 This project is a comprehensive Power BI dashboard designed to analyze and visualize sales performance and customer behavior using data from a retail business. The dashboard provides stakeholders with a 360-degree view of key business metrics, helping drive strategic decisions based on data insights.
 
 Key Features:
