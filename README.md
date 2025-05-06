@@ -1,28 +1,84 @@
-# Sales-and-Customer-Analytics
+Project: Sales Customer Analytics Dashboard
+Objective:
+To develop an interactive, multi-page Power BI dashboard for Adventure Works, aimed at providing key insights into sales performance, customer demographics, product profitability, and return rates to support strategic decision-making.
 
-This project is a comprehensive Power BI dashboard designed to analyze and visualize sales performance and customer behavior using data from a retail business. The dashboard provides stakeholders with a 360-degree view of key business metrics, helping drive strategic decisions based on data insights.
+1. Data Sources:
+Sales Data: Order quantity, revenue, cost, and profit across product categories and sub-categories.
 
-Key Features:
-Interactive Executive Summary: Tracks core KPIs including total orders (84K+), revenue ($24.91M), profit ($10.46M), cost, and return rate (2.17%), with breakdowns by year and product categories.
+Customer Demographics: Region, education level, gender, occupation, marital status.
 
-Customer Segmentation Analysis: Analyzes revenue contribution by demographics such as gender, marital status, education level, and occupation. Identified that professionals and bachelor’s degree holders alone contributed over $8.4M in revenue.
+Product Details: Product name, color, style, sub-category.
 
-Product Performance View: Explores profitability and return rates across product categories and sub-categories. Highlights product styles and colors contributing the most to revenue and returns.
+Returns Data: Return rates by category, sub-category, and individual products.
 
-Year-over-Year Analysis: Trend visuals to monitor changes in performance across multiple years, helping track business growth and seasonal shifts.
+2. Data Preparation:
+Imported data from multiple Excel/CSV sources using Power BI’s Get Data feature.
+
+Performed data cleaning and transformation using Power Query:
+
+Removed duplicates and nulls.
+
+Standardized product and category names.
+
+Merged related tables (e.g., customer and sales data).
+
+Created calculated columns and measures using DAX:
+
+Total Revenue, Total Profit, Return Rate %, Profit Margin.
+
+3. Dashboard Design and Features:
+1: Executive Summary
+KPIs: Displayed Total Order Quantity (84K), Revenue (24.91M), Profit (10.46M), Cost (14.46M), Return Rate (2.17%).
+
+Visuals:
+
+Bar chart for Revenue by Category and Sub-Category.
+Line chart showing Year-wise Revenue and Profit Trends.
+Pie chart and bar chart for Return Rate by Category, Sub-Category, and Product.
+Filters/Slicers: Region, Continent, Country, Category, Sub-Category, Order Date.
+
+Page 2: Customer Summary
+Demographic Insights:
+Revenue segmented by Education Level, Gender, Marital Status, and Occupation.
+Funnel chart for Profit by Education Level.
+
+Visuals:
+
+Combination of pie charts, bar charts, and funnel chart to highlight customer behavior and revenue contribution.
+
+Filters/Slicers: Region, Education Level, Gender, Occupation, Marital Status.
+
+Page 3: Product Summary
+Product Analysis:
+Profit and Revenue by Category, Sub-Category, Product Color, and Style.
+Return rate analysis by Sub-Category.
+Use of treemap and pie chart for comparative visuals.
+
+Visuals:
+
+Treemap, clustered bar, pie charts.
+
+Filters/Slicers: Category, Sub-Category, Product Name, Product Color, Product Style.
+
+4. Key Insights:
+   
+Bikes category dominates both revenue and profit.
+Black and Blue products generate the highest revenue and profit.
+Return rates are highest in Shorts and Vests sub-categories.
+Customers with Bachelor’s degrees contribute the most to both revenue and profit.
+Professionals and Skilled Manual Workers are top revenue-generating occupations.
+
+6. Impact & Outcomes:
+Enabled stakeholders to quickly identify top-performing products and customer segments.
+Helped reduce return rates by focusing on high-return sub-categories.
+Provided a basis for targeted marketing and inventory management strategies.
 
 Tools & Skills Used:
-Power BI: For data modeling, visualization, and report design.
+Power BI: Dashboard creation, visualizations, data modeling.
 
-DAX: For calculated measures and KPIs (e.g., return rate, profit margin).
+Power Query: ETL operations.
 
-Data Cleaning & Transformation: Power Query used to shape and structure raw data for reporting.
+DAX: Measures for custom KPIs.
 
-Data Storytelling: Insights presented using clean, intuitive visuals and filters for end-user interactivity.
+Data Analysis & Storytelling: Translating data into actionable insights.
 
-Business Impact:
-Enabled decision-makers to understand key revenue drivers and identify areas with high return rates.
-
-Supported marketing and sales strategies through clear customer segmentation.
-
-Helped product teams focus on profitable and customer-preferred product lines.
