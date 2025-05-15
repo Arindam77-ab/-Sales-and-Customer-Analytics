@@ -1,8 +1,11 @@
-Project: Sales Customer Analytics Dashboard
+ Sales Customer Analytics Dashboard
+ 
 Objective:
+
 To develop an interactive, multi-page Power BI dashboard for Adventure Works, aimed at providing key insights into sales performance, customer demographics, product profitability, and return rates to support strategic decision-making.
 
 1. Data Sources:
+2. 
 Sales Data: Order quantity, revenue, cost, and profit across product categories and sub-categories.
 
 Customer Demographics: Region, education level, gender, occupation, marital status.
@@ -12,6 +15,7 @@ Product Details: Product name, color, style, sub-category.
 Returns Data: Return rates by category, sub-category, and individual products.
 
 2. Data Preparation:
+3. 
 Imported data from multiple Excel/CSV sources using Power BI’s Get Data feature.
 
 Performed data cleaning and transformation using Power Query:
@@ -27,7 +31,9 @@ Created calculated columns and measures using DAX:
 Total Revenue, Total Profit, Return Rate %, Profit Margin.
 
 3. Dashboard Design and Features:
+
 1: Executive Summary
+
 KPIs: Displayed Total Order Quantity (84K), Revenue (24.91M), Profit (10.46M), Cost (14.46M), Return Rate (2.17%).
 
 Visuals:
